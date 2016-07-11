@@ -1,6 +1,6 @@
-class Circle {
+class Ellipse {
 
-	constructor(context, width, height, radius, speed) {
+	constructor(context, width, height, radiusX, radiusY, speed) {
 
 		this.context = context;
 		this.width = width;
@@ -8,7 +8,8 @@ class Circle {
 		this.centerX = width * .5;
 		this.centerY = height * .5;
 
-		this.radius = radius;
+		this.radiusX = radiusX;
+		this.radiusY = radiusY;
 		this.angle = 0;
 		this.speed = speed;
 
@@ -16,8 +17,8 @@ class Circle {
 
 	update() {
 
-		const x = this.centerX + (Math.cos(this.angle) * this.radius);
-		const y = this.centerY + (Math.sin(this.angle) * this.radius);
+		const x = this.centerX + (Math.cos(this.angle) * this.radiusX);
+		const y = this.centerY + (Math.sin(this.angle) * this.radiusY);
 
 		this.context.beginPath();
 		this.context.arc(x, y, 10, 0, 2 * Math.PI, false);
@@ -29,4 +30,4 @@ class Circle {
 
 }
 
-export default Circle;
+export default Ellipse;
