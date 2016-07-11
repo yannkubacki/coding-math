@@ -31,6 +31,8 @@ class App {
 			context : this.context,
 			width : this.width,
 			height : this.height,
+			size : 2,
+			color : '#f1c40f',
 			number : 100,
 			radiusX : 500,
 			radiusY : 500,

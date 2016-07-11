@@ -8,6 +8,8 @@ class Fireflies {
 		this.width = options.width;
 		this.height = options.height;
 
+		this.firefliesSize = options.size;
+		this.firefliesColor = options.color;
 		this.firefliesNumber = options.number;
 		this.radiusX = options.radiusX;
 		this.radiusY = options.radiusY;
@@ -31,6 +33,8 @@ class Fireflies {
 				context : this.context,
 				width : this.width,
 				height : this.height,
+				size : this.firefliesSize,
+				color : this.firefliesColor,
 				radiusX : Math.random() * this.radiusX,
 				radiusY : Math.random() * this.radiusY,
 				speedX : Math.random() * this.speedX,

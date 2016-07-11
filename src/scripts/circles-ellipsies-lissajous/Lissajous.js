@@ -8,6 +8,8 @@ class Lissajous {
 		this.centerX = options.centerX;
 		this.centerY = options.centerY;
 
+		this.size = options.size
+		this.color = options.color
 		this.radiusX = options.radiusX;
 		this.radiusY = options.radiusY;
 		this.angleX = 0;
@@ -23,7 +25,8 @@ class Lissajous {
 		const y = centerY + (Math.sin(this.angleY) * this.radiusY);
 
 		this.context.beginPath();
-		this.context.arc(x, y, 10, 0, 2 * Math.PI, false);
+		this.context.arc(x, y, this.size, 0, 2 * Math.PI, false);
+		this.context.fillStyle = this.color;
 		this.context.fill();
 
 		this.angleX += this.speedX;
