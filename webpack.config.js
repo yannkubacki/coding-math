@@ -4,8 +4,8 @@ var autoprefixer = require('autoprefixer');
 
 module.exports = {
     entry: [
-        './src/scripts/main.js',
-        './src/styles/main.styl'
+        './src/scripts/index.js',
+        './src/styles/index.styl'
     ],
     output: {
         path: path.join(__dirname, 'build'),
