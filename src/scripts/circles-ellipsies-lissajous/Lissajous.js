@@ -29,8 +29,8 @@ class Lissajous {
 		this.context.fillStyle = this.color;
 		this.context.fill();
 
-		this.angleX += this.speedX;
-		this.angleY += this.speedY;
+		this.angleX += this.speedX * .9;
+		this.angleY += this.speedY * .9;
 
 	}
 
