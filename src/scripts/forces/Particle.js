@@ -12,7 +12,7 @@ class Particle {
 
 	}
 
-	acclerate(acceleration) {
+	accelerate(acceleration) {
 
 		this.velocity.addTo(acceleration);
 

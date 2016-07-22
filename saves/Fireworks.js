@@ -20,15 +20,6 @@ class App {
 		this.width = this.canvas.width = window.innerWidth;
 		this.height = this.canvas.height = window.innerHeight;
 
-		this.fireworks = [];
-		this.fireworksOptions = {
-			context : this.context,
-			particlesNb : 100,
-			particlesSize : 5,
-			maxSpeed : 10,
-			gravity : .1
-		};
-
 		this.init();
 		this.render();
 		this.bindEvents();
@@ -63,6 +54,15 @@ class App {
 	}
 
 	init() {
+
+		this.fireworks = [];
+		this.fireworksOptions = {
+			context : this.context,
+			particlesNb : 100,
+			particlesSize : 5,
+			maxSpeed : 10,
+			gravity : .1
+		};
 
 	}
 
