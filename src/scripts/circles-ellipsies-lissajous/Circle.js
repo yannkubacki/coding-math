@@ -29,4 +29,7 @@ class Circle {
 
 }
 
+// INIT EXAMPLE
+// this.circle = new Circle(this.context, this.width, this.height, 100, .1);
+
 export default Circle;

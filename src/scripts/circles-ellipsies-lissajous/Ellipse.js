@@ -30,4 +30,7 @@ class Ellipse {
 
 }
 
+// INIT EXAMPLE
+// this.ellipse = new Ellipse(this.context, this.width, this.height, 200, 30, .1);
+
 export default Ellipse;

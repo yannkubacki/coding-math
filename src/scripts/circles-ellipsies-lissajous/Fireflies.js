@@ -76,4 +76,18 @@ class Fireflies {
 
 }
 
+// INIT EXAMPLE
+// this.fireflies = new Fireflies({
+// 	context : this.context,
+// 	width : this.width,
+// 	height : this.height,
+// 	size : 2,
+// 	color : '#f1c40f',
+// 	number : 100,
+// 	radiusX : 500,
+// 	radiusY : 500,
+// 	speedX : .05,
+// 	speedY : .05
+// });
+
 export default Fireflies;

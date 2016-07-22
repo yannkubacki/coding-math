@@ -32,4 +32,7 @@ class Flashpoint {
 
 }
 
+// INIT EXAMPLE
+// this.flashpoint = new Flashpoint(this.context, this.width, this.height, 100, .1);
+
 export default Flashpoint;

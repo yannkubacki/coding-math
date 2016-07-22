@@ -56,4 +56,14 @@ class HomingArrow {
 
 }
 
+// INIT EXAMPLE
+// this.homingArrow = new HomingArrow({
+// 		context : this.context,
+// 		width : this.width,
+// 		height : this.height,
+// 		centerX : this.width * .5,
+// 		centerY : this.height * .5,
+// 		color : '#ffffff'
+// });
+
 export default HomingArrow
